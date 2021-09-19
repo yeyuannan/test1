@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style >
+					*{
+					    box-sizing: border-box;
+				    }
+					 
+					 h1{
+						 font-size: 40px;
+					 }
+					 
+					 h2{
+						 font-size: 30px;
+					 }
+					 
+					 p{
+						 font-size: 18px;
+						 text-align: justify;
+					 }
+					 
+					.header{
+						padding: 20px;
+						text-align: center;
+					}
+					
+					.p2{
+						font-family: Arial, Helvetica, sans-serif;
+					}
+					
+					ul{
+						list-style-type: none;
+						float: left;
+						margin: 0;
+						padding: 0;
+						width: 25%;
+						height: 70%;
+						position: fixed;
+						overflow: auto;
+					}
+					
+			        a{
+						color: white;
+					}
+					
+					li {
+						text-align: center;
+					}
+					
+					li a{
+						display: block;
+						color: #FFFFFF;
+						padding: 8px 16px;
+						text-decoration: none;
+					}
+					
+					li a.active{
+						background-color: cadetblue;
+						color: white;
+					}
+					
+					li a:hover{
+						background-color: #555;
+						color: white;
+					}
+					 
+					.column{
+						float: right;
+						width: 75%;
+						padding: 20px;
+					}
+					
+					.leftcolumn{
+						float: right;
+						width: 37.75%;
+						padding: 10px;
+					}
+					
+					.rightcolumn{
+						float: right;
+						width: 37.75%;
+						padding: 10px;
+					}
+					
+					.row::after{
+						content: "";
+						display: table;
+						clear: both;
+					}
+					
+					@media screen and (max-width:600px) {
+						.column{
+							width: 75%;
+							padding: 0;
+						}
+						
+						.leftcolumn, .rightcolumn{
+							width: 75%;
+							padding: 0;
+						}
+					}
+					
+					.footer{
+						float: right;
+						color: black;
+						width: 100%;
+						padding: 20px;
+						text-align: center;
+					}
+					
+					.left{
+						position: absolute;
+		                padding: 10px;
+					}
+					
+					div.absolute{
+						position: absolute;
+						top: 48%;
+						left: 11%;
+						width: 1%;
+						height: 10%;
+						padding: 5px;
+						border: 3px;
+					}
+					
+				</style>
+	</head>
+	<body background="背景.jpg" style="background-attachment: fixed; background-repeat: no-repeat; background-size: 100% 100%;" windowc_onresizez="true">
+			<div>
+					<ul>
+					    <li><a class="active" href="index.html">首页</a></li>
+					    <li><a href="01/index.html">实验一</a></li>
+					    <li><a href="02/index.html">实验二</a></li>
+					    <li><a href="03/index.html">实验三</a></li>
+					    <li><a href="04/index.html">实验四</a></li>
+				    </ul>
+				</div>
+		<h1 align="center">叶源楠的网站</h1>
+		<hr />
+		<table border="5" bordercolor="#ffe1b5" align="center" width="600" bgcolor="#84c1ff">
+							<tr >
+							<td align="center">账号：</td>
+							<td align="left"><input tabindex="1" type="text" name="123" oninput="var vpn_return;eval(vpn_rewrite_js((function () { value=value.replace(/[^\d]/g,&#39;&#39;) }).toString().slice(14, -2), 2));return vpn_return;" maxlength="11"></td>
+							</tr>
+							
+							<tr>
+							<td></td>
+							
+							</tr>
+							
+							<tr>
+							<td align="center">密码：</td>
+							<td><input type="text" name="111" maxlength="20" tabindex="1" placeholder="请输入密码"/></td>
+							</tr>
+							<tr>
+							<td></td>
+							<td><a href="#">遗忘密码</a></td>
+							</tr>
+							
+							
+							<tr>
+							<td align="center">性别：</td>
+							<td>
+								<input type="radio" name="sex" value="man"/ checked="checked">男 
+								<input type="radio" name="sex" value="woman"/>女 
+							</td>
+							</tr>
+							
+													<tr>
+													<td align="center"  > 说说感受：</td>
+																			
+																			<td ><br />
+																			<!-- <form name="inputform"> -->
+																				<a href="javascript:this.top.vpn_inject_scripts_window(this);vpn_eval((function () { insertIcon(&#39;[smile]&#39;) }).toString().slice(14, -2))">
+																				<img src="1.gif" width="125" height="125" alt=":好奇" class="expression">
+																				</a>
+																				<a href="javascript:this.top.vpn_inject_scripts_window(this);vpn_eval((function () { insertIcon(&#39;[angry]&#39;) }).toString().slice(14, -2))">
+																				<img src="2.gif" width="125" height="125" alt=":angry" class="expression">
+																				</a>
+																				<a href="javascript:this.top.vpn_inject_scripts_window(this);vpn_eval((function () { insertIcon(&#39;[cute]&#39;) }).toString().slice(14, -2))">
+																				<img src="3.gif" width="125" height="125" alt=":cute" class="expression">
+																				</a>
+																				<a href="javascript:this.top.vpn_inject_scripts_window(this);vpn_eval((function () { insertIcon(&#39;[look]&#39;) }).toString().slice(14, -2))">
+																				<img src="4.gif" width="125" height="125" alt=":look" class="expression">
+																				</a>
+																				<a href="javascript:this.top.vpn_inject_scripts_window(this);vpn_eval((function () { insertIcon(&#39;[scared]&#39;) }).toString().slice(14, -2))">
+																				<img src="5.gif" width="125" height="125" alt=":scared" class="expression">
+																				</a>
+																				<a href="javascript:this.top.vpn_inject_scripts_window(this);vpn_eval((function () { insertIcon(&#39;[what]&#39;) }).toString().slice(14, -2))">
+																				<img src="6.gif" width="125" height="125" alt=":what" class="expression">
+																				</a>
+																				<a href="javascript:this.top.vpn_inject_scripts_window(this);vpn_eval((function () { insertIcon(&#39;[wow]&#39;) }).toString().slice(14, -2))">
+																				<img src="7.gif" width="125" height="125" alt=":wow" class="expression">
+																				</a>
+																				
+																				<textarea id="user1" name="message" style="height:100px;width:300px;text-align:left;"></textarea>
+																				<input type="button" onclick="var vpn_return;eval(vpn_rewrite_js((function () { ClearTextArea() }).toString().slice(14, -2), 2));return vpn_return;" value="清空"/>
+																			<!-- </form> -->
+																		
+																			</td>
+																		</tr>
+																		
+																		
+																
+												<tr>
+							
+		
+							
+				
+	</body>
+</html>
