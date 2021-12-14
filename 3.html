@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style >
+							*{
+							    box-sizing: border-box;
+						    }
+							 
+							 h1{
+								 font-size: 40px;
+							 }
+							 
+							 h2{
+								 font-size: 30px;
+							 }
+							 
+							 p{
+								 font-size: 18px;
+								 text-align: justify;
+							 }
+							 
+							.header{
+								padding: 20px;
+								text-align: center;
+							}
+							
+							.p2{
+								font-family: Arial, Helvetica, sans-serif;
+							}
+							
+							ul{
+								list-style-type: none;
+								float: left;
+								margin: 0;
+								padding: 0;
+								width: 25%;
+								height: 70%;
+								position: fixed;
+								overflow: auto;
+							}
+							
+					        a{
+								color: black;
+							}
+							
+							li {
+								text-align: center;
+							}
+							
+							li a{
+								display: block;
+								color: #FFFFFF;
+								padding: 8px 16px;
+								text-decoration: none;
+							}
+							
+							li a.active{
+								background-color: cadetblue;
+								color: white;
+							}
+							
+							li a:hover{
+								background-color: #555;
+								color: white;
+							}
+							 
+							.column{
+								float: right;
+								width: 75%;
+								padding: 20px;
+							}
+							
+							.leftcolumn{
+								float: right;
+								width: 37.75%;
+								padding: 10px;
+							}
+							
+							.rightcolumn{
+								float: right;
+								width: 37.75%;
+								padding: 10px;
+							}
+							
+							.row::after{
+								content: "";
+								display: table;
+								clear: both;
+							}
+							
+							@media screen and (max-width:600px) {
+								.column{
+									width: 75%;
+									padding: 0;
+								}
+								
+								.leftcolumn, .rightcolumn{
+									width: 75%;
+									padding: 0;
+								}
+							}
+							
+							.footer{
+								float: right;
+								color: black;
+								width: 100%;
+								padding: 20px;
+								text-align: center;
+							}
+							
+							.left{
+								position: absolute;
+				                padding: 10px;
+							}
+							
+							div.absolute{
+								position: absolute;
+								top: 48%;
+								left: 11%;
+								width: 1%;
+								height: 10%;
+								padding: 5px;
+								border: 3px;
+							}
+							
+						</style>
+		<style type="text/css">
+		body{
+			color: blue;
+		}
+		ui,li,a{
+		 	list-style: none;
+			text-decoration: none;
+			text-align: center;
+			font-size: 26px;	
+		}
+		.shixian1 li{
+			float: left;
+		}
+		.shixian2 li{
+			float: left;
+			
+		}
+		li{
+			padding: 8px;
+			border-right: 2px,solid,#ff55ff;
+		}
+		</style>
+	</head>
+	<body style="margin: 0;background-color: #b4ffa6;">
+		<div>
+							<ul>
+							    <li><a class="active" href="index.html">首页</a></li>
+							    <li><a href="lab2/test2-1.html">lab2-1</a></li>
+							    <li><a href="lab2/test2-2.html">lab2-2</a></li>
+							    <li><a href="lab2/test2-3.html">lab2-3</a></li>
+							    <li><a href="lab2/test2-4.html">lab2-4</a></li>
+						    </ul>
+						</div>
+	</body>
+</html>
